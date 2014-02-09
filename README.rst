@@ -22,55 +22,57 @@ pip / easy\_install
 
 ::
 
-    pip install speedtest-cli
+    pip install speedtest-cli-gdocs
 
 or
 
 ::
 
-    easy_install speedtest-cli
+    easy_install speedtest-cli-gdocs
 
 Github
 ~~~~~~
 
 ::
 
-    pip install git+https://github.com/sivel/speedtest-cli.git
+    pip install git+https://github.com/elpatron68/speedtest-cli-gdocs.git
 
 or
 
 ::
 
-    git clone https://github.com/sivel/speedtest-cli.git
-    python speedtest-cli/setup.py install
+    git clone https://github.com/elpatron68/speedtest-cli-gdocs.git
+    python speedtest-cli-gdocs/setup.py install
 
 Just download (Like the way it used to be)
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 ::
 
-    wget -O speedtest-cli https://raw.github.com/sivel/speedtest-cli/master/speedtest_cli.py
-    chmod +x speedtest-cli
+    wget -O speedtest-cli https://raw.github.com/elpatron68/speedtest-cli-gdocs/master/speedtest_cli-gdocs.py
+    chmod +x speedtest-cli-gdocs
 
 or
 
 ::
 
-    curl -o speedtest-cli https://raw.github.com/sivel/speedtest-cli/master/speedtest_cli.py
-    chmod +x speedtest-cli
+    curl -o speedtest-cli https://raw.github.com/elpatron68/speedtest-cli-gdocs/master/speedtest_cli-gdocs.py
+    chmod +x speedtest-cli-gdocs
 
 Usage
 -----
 
 ::
 
-    $ speedtest-cli -h
-    usage: speedtest-cli [-h] [--share] [--simple] [--list] [--server SERVER]
-                         [--mini MINI] [--source SOURCE] [--version]
+    $ speedtest-cli-gdocs -h
+    usage: speedtest-cli-gdocs [-h] [--share] [--simple] [--list] [--server SERVER]
+                               [--mini MINI] [--source SOURCE] [--version]
+                               [--gmailuser USER] [--gmailpass PASSWORD]
+                               [--spreadsheetkey ID] [--worksheetid ID]
 
     Command line interface for testing internet bandwidth using speedtest.net.
     --------------------------------------------------------------------------
-    https://github.com/sivel/speedtest-cli
+    https://github.com/elpatron68/speedtest-cli-gdocs
 
     optional arguments:
       -h, --help       show this help message and exit
@@ -82,4 +84,8 @@ Usage
       --mini MINI      URL of the Speedtest Mini server
       --source SOURCE  Source IP address to bind to
       --version        Show the version number and exit
+      --gmailuser      Google account: user
+      --gmailpass      Google account: password
+      --spreadsheetkey Key of the spreadsheet (from Google Drive URL - key=)
+      --worksheetid    Worksheet ID ('od6' for first sheet)
 
