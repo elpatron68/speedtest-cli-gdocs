@@ -1,8 +1,9 @@
-speedtest-cli
-=============
+speedtest-cli-gdocs
+===================
 
 Command line interface for testing internet bandwidth using
-speedtest.net
+speedtest.net. Results may be submitted to a Google Docs
+spreadsheet.
 
 Versions
 --------
