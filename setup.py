@@ -1,6 +1,7 @@
 #!/usr/bin/env python
 
 import setuptools
+from distutils.core import setup
 import py2exe
 
 setuptools.setup(
@@ -27,3 +28,5 @@ setuptools.setup(
         'Operating System :: OS Independent'
     ]
 )
+
+setup(console=['speedtest_cli.py'])
