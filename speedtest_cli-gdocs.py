@@ -15,7 +15,8 @@
 #    WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
 #    License for the specific language governing permissions and limitations
 #    under the License.
-
+#
+# speedtest-cli-gdocs is a fork from https://github.com/sivel/speedtest-cli
 __version__ = '0.2.4'
 
 # Some global variables we use
