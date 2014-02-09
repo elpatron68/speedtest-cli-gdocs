@@ -9,6 +9,8 @@ Versions
 --------
 
 speedtest-cli-gdocs works with Python 2.4-3.4
+speedtest-cli-gdocs is a fork from
+https://github.com/sivel/speedtest-cli
 
 Installation
 ------------
