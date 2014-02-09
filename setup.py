@@ -1,16 +1,17 @@
 #!/usr/bin/env python
 
 import setuptools
+import py2exe
 
 setuptools.setup(
-    name='speedtest-cli',
+    name='speedtest-cli-gdocs',
     version='0.2.4',
     description=('Command line interface for testing internet bandwidth using '
                  'speedtest.net'),
     long_description=open('README.rst').read(),
-    author='Matt Martz',
-    author_email='matt@sivel.net',
-    url='https://github.com/sivel/speedtest-cli',
+    author='Markus Busche',
+    author_email='m.busche@gmail.com',
+    url='https://github.com/elpatron68/speedtest-cli-gdocs',
     license='Apache License, Version 2.0',
     py_modules=['speedtest_cli'],
     entry_points={
